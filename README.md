@@ -1,4 +1,4 @@
-# 회원가입 실습 2
+# 회원가입 실습 5
 
 ## 실습 예정
 
@@ -43,3 +43,6 @@ public boolean findPasswd(String memberId, String email) {
 ```
 docker run -p 45432:5432 -e PGDATA=/var/lib/postgresql/pgdata -e POSTGRES_PASSWORD=admin_123 --restart unless-stopped --name postgres-sample -d jyeory/postgres-jdbc-01:0.0.5
 ```
+
+## UI
+![image](https://github.com/InitTester/110_Join_05/assets/143479869/7cb10005-fba8-4fd9-b224-88567e3ccb46)
